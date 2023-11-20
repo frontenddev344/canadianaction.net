@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <title>Home</title>
+</head>
+
+<body>
+  <!-- site-header start -->
+  <header class="site-header">
+    <div class="container">
+      <div class="site-logo">
+        <a href="index.html"><img src="images/header-logo.png" alt="site-logo"></a>
+      </div>
+
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html" class=" menu active">Home</a></li>
+          <li><a href="hotels.html">Hotels</a></li>
+          <li><a href="cuisine.html">Cuisine</a></li>
+          <li><a href="adventure.html">Adventure</a></li>
+          <li><a href="entertainment.html">Entertainment</a></li>
+          <li><a href="casino.html">Casino</a></li>
+          <li><a href="about.html">About</a></li>
+            <div class="closed-menu">
+              <a href="#">×</a>
+            </div>
+          </li>
+        </ul>
+      </nav> 
+      <div class="menu-toggle">
+        <div class="bar-1"></div>
+        <div class="bar-2"></div>
+        <div class="bar-3"></div>
+      </div>
+
+     
+    </div>
+  </header>
+  <!-- site header end -->
+
+  <!-- site banner end -->
+  <section class="banner-section">
+    <div class="container">
+      <div class="row">
+        <div class="banner__text">
+          <h1>GIGACASINOS</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- site banner end -->
+
+
+
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/owl.carousel.js"></script>
+
+
+  <script>
+    $(document).ready(function () {
+      $(".menu-toggle").click(function () {
+        $("body").addClass("toggle");
+      });
+    });
+
+    $(document).ready(function () {
+      $(".closed-menu").click(function () {
+        $("body").removeClass("toggle");
+      });
+    });
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        var header = $("header");
+        header.toggleClass("sticky", $(window).scrollTop() > 0);
+      });
+    });
+  </script>
+
+
+
+
+</body>
+
+</html>

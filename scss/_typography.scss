@@ -1,0 +1,32 @@
+
+@import './variables';
+@import './mixins';
+
+li{
+    list-style: none;
+}
+a,button {
+    font-family: 'Varta', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 70px;
+    color: $clr-grey;
+    font-family: 'Varta', sans-serif;
+}
+
+
+h1 {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 75px;
+    color: $clr-white;
+}
+
+h2 {
+    font-size: 60px;
+    line-height: 75px;
+    font-weight: 500;
+}

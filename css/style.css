@@ -1,0 +1,175 @@
+/*global start*/
+@import url("https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varta:wght@500&display=swap");
+li {
+  list-style: none;
+}
+
+a, button {
+  font-family: "Varta", sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 70px;
+  color: #AAAAAA;
+  font-family: "Varta", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 75px;
+  color: white;
+}
+
+h2 {
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: 500;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 1.6rem;
+  font-family: "Khand", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  font-family: "Varta", sans-serif;
+}
+
+a:focus {
+  color: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/*global end*/
+/*header start*/
+header.site-header {
+  background: #ffffff;
+  font-size: 18px;
+  padding: 14px 0;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+  transition: 0.3s;
+}
+
+header.site-header.sticky {
+  background: #ffffff;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding: 10px 0;
+  position: fixed;
+}
+
+.site-header .site-nav ul li a.active {
+  color: #B5F201;
+}
+
+.site-logo img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.site-nav a {
+  padding: 8px 12px !important;
+  display: inline-block;
+  font-family: "Khand", sans-serif;
+  font-weight: 500;
+}
+.site-nav a:hover {
+  color: #B5F201;
+}
+
+.site-header {
+  padding: 10px 0;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.closed-menu {
+  display: none;
+}
+
+.menu-toggle {
+  display: none !important;
+}
+
+/*header end*/
+/*banner-css-start*/
+section.banner-section {
+  position: relative;
+  height: 550px;
+  background-image: url(images/canadabanner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  object-fit: cover;
+  margin-top: 50px;
+  position: relative;
+}
+
+.banner__text {
+  color: #f2efe8;
+  font-size: 55px;
+  line-height: normal;
+  z-index: 2;
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+/*banner-css-end*/
+
+
+/*# sourceMappingURL=style.css.map */
