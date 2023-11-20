@@ -30,4 +30,8 @@ h2 {
     line-height: 50px;
     font-weight: 600;
     color: $clr-blue;
+    @include mq(xl) {
+            font-size: 29px;
+            line-height: 33px;
+    }
 }

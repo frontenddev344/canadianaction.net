@@ -31,6 +31,9 @@
     .site-nav li {
         font-size: 15px;
     }
+    .item {
+        aspect-ratio: 1;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -190,11 +193,49 @@
             opacity: 0.7;
         }
     }
+   .tileshead{
+    h2{
+        text-align: center;
+    }
+   }
+
+   .casino-hotels-wrapper .casino-btn {
+   text-align: left; 
+}
+.casino-img {
+    margin-bottom: 30px;
+}
+.casino-hotels-wrapper .casino-text {
+    text-align: left;
+}
+.casino-hotels-wrapper .casino-img figure img {
+    height: 350px;
+
 }
 
+.item {
+    aspect-ratio: inherit;
+}
+}
+
+@media screen and (max-width:767px) {
+    .homemain-picture img{
+        max-width: 100%;
+        margin-bottom: 20px;
+        }
+        .social-signals{
+            margin-bottom: 25px;
+        }
+        .footer-adresse{
+            margin-top: 25px;
+        }
+}
 @media screen and (max-width:575px) {
     .site-nav {
         width: 100%;
+    }
+    .site-logo img {
+        max-width: 13rem;
     }
 }
 

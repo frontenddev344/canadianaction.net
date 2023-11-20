@@ -30,6 +30,12 @@ h2 {
   font-weight: 600;
   color: #004471;
 }
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 29px;
+    line-height: 33px;
+  }
+}
 
 * {
   box-sizing: border-box;
@@ -266,7 +272,6 @@ section.banner-section::after {
 /*tilesformat-css-end*/
 /*choose-css-start*/
 section.choose-main {
-  background-color: #004471;
   background-image: url(../images/choosebg.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -277,15 +282,15 @@ section.choose-main {
   padding: 50px 0;
 }
 .choose-head h2 {
-  color: white;
+  color: #004471;
 }
 
 .item {
-  background: #fdfbf8;
+  background: #004471;
   padding: 40px 20px;
   transition: 0.5s;
   position: relative;
-  aspect-ratio: 1/0.5;
+  aspect-ratio: 1/0.6;
   z-index: 1;
   margin-bottom: 30px;
   line-height: 1;
@@ -299,11 +304,11 @@ section.choose-main {
 }
 .item h3 {
   font-size: 30px;
-  color: #004471;
+  color: white;
   margin: 10px 0;
 }
 .item h3:hover {
-  color: #004471;
+  color: #B5F201;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -346,6 +351,79 @@ section.choose-main {
 }
 
 /*choose-css-end*/
+/*footer-css-start*/
+.footer {
+  background-color: #004471;
+  padding: 50px 0;
+}
+.footer-logo {
+  max-width: 124px;
+}
+.footer-links h2 {
+  color: white;
+}
+.footer-links a {
+  color: white;
+}
+.footer-links a:hover {
+  color: #B5F201;
+}
+.footer-adresse h2 {
+  color: white;
+}
+.footer-adresse p {
+  color: white;
+}
+.footer-mails a {
+  color: white;
+}
+.footer-mails {
+  display: flex;
+  flex-direction: column;
+}
+
+.mails-names {
+  gap: 16px;
+  display: flex;
+  align-items: end;
+}
+
+.social-signals {
+  margin-top: 25px;
+}
+.social-signals i {
+  color: white;
+  border-radius: 30px;
+  font-size: 25px;
+  margin: 0 10px;
+  border: 1px solid white;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 36px;
+  transition: 0.3s all;
+}
+.social-signals i:hover {
+  color: #B5F201;
+  transform: translateY(-10px);
+}
+
+.footer_bottom {
+  border-top: 1px solid #fff;
+  padding: 10px;
+  margin: 30px 0;
+}
+.footer_bottom p {
+  text-align: center;
+}
+.footer_bottom p a {
+  color: #fff;
+}
+.footer_bottom p a:hover {
+  color: #B5F201;
+}
+
+/*footer-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */
