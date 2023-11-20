@@ -178,7 +178,90 @@ section.banner-section {
 }
 /*homemain-css-end*/
 
+/*choose-css-start*/
+section.choose-main {
+    background-color: $clr-blue;
+    background-image: url(../images/choosebg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.choose {
+    &-head {
+        padding: 50px 0;
+    }
+}
+
+.item {
+    background: #fdfbf8;
+    padding: 40px 20px;
+    transition: 0.5s;
+    position: relative;
+    aspect-ratio: 1/0.5;
+    z-index: 1;
+    margin-bottom: 30px;
+    line-height: 1;
+    text-align: center;
+    height: auto;
+    width: 100%;
+
+    img {
+        max-width: 64px;
+        transition: .3s;
+    }
+
+    h5 {
+        font-size: 24px;
+        color: $clr-black;
+        margin: 10px 0;
+
+        &:hover {
+            color: $clr-blue;
+            -webkit-transition: .5s;
+            transition: .5s;
+        }
+    }
+
+    p {
+        margin: 0 auto;
+        color: $clr-black;
+        max-width: 65%;
+    }
+}
+
+.item span {
+    font-size: 45px;
+    color: $clr-blue;
+    line-height: 1;
+    margin-bottom: 10px;
+    display: inline-block;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.item:hover span {
+    color: $clr-black;
+}
+
+.item .shape {
+    position: absolute;
+    opacity: 0.03;
+    z-index: -1;
+    bottom: 15px;
+    left: 120px;
+}
+
+.item .shape span {
+    font-size: 140px;
+    color: $clr-black;
+}
+
+.item:hover img {
+    transform: rotateY(180deg);
+}
+
+/*choose-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */

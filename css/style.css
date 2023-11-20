@@ -199,6 +199,84 @@ section.banner-section::after {
 }
 
 /*homemain-css-end*/
+/*choose-css-start*/
+section.choose-main {
+  background-color: #004471;
+  background-image: url(../images/choosebg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.choose-head {
+  padding: 50px 0;
+}
+
+.item {
+  background: #fdfbf8;
+  padding: 40px 20px;
+  transition: 0.5s;
+  position: relative;
+  aspect-ratio: 1/0.5;
+  z-index: 1;
+  margin-bottom: 30px;
+  line-height: 1;
+  text-align: center;
+  height: auto;
+  width: 100%;
+}
+.item img {
+  max-width: 64px;
+  transition: 0.3s;
+}
+.item h5 {
+  font-size: 24px;
+  color: #0C0B0B;
+  margin: 10px 0;
+}
+.item h5:hover {
+  color: #004471;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.item p {
+  margin: 0 auto;
+  color: #0C0B0B;
+  max-width: 65%;
+}
+
+.item span {
+  font-size: 45px;
+  color: #004471;
+  line-height: 1;
+  margin-bottom: 10px;
+  display: inline-block;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.item:hover span {
+  color: #0C0B0B;
+}
+
+.item .shape {
+  position: absolute;
+  opacity: 0.03;
+  z-index: -1;
+  bottom: 15px;
+  left: 120px;
+}
+
+.item .shape span {
+  font-size: 140px;
+  color: #0C0B0B;
+}
+
+.item:hover img {
+  transform: rotateY(180deg);
+}
+
+/*choose-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */
