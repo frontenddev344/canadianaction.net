@@ -32,11 +32,9 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
-p {
+p{
     font-family: 'Varta', sans-serif;
 }
-
 a:focus {
     color: inherit;
 }
@@ -55,31 +53,28 @@ html {
 
 /*header start*/
 header.site-header {
-    background: #ffffff;
     font-size: 18px;
     padding: 14px 0;
     font-weight: 700;
     text-transform: capitalize;
     color: #000000;
     position: absolute;
-    top: 0;
+	 top: 0;
     left: 0;
     right: 0;
     z-index: 999;
     width: 100%;
     transition: .3s;
 }
-
 header.site-header.sticky {
-    background: #ffffff;
+    background: $clr-blue;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
     padding: 10px 0;
     position: fixed;
 }
-
 .site-header .site-nav ul li a.active {
-    color: $clr-parrot;
+color: $clr-parrot;
 }
 
 .site-logo img {
@@ -91,9 +86,9 @@ header.site-header.sticky {
     padding: 8px 12px !important;
     display: inline-block;
     font-family: 'Khand', sans-serif;
+    color: $clr-white;
     font-weight: 500;
-
-    &:hover {
+    &:hover{
         color: $clr-parrot;
     }
 }
@@ -130,12 +125,12 @@ header.site-header.sticky {
 section.banner-section {
     position: relative;
     height: 550px;
-    background-image: url(images/canadabanner.jpeg);
+    background-image: url(../images/canadabanner.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     object-fit: cover;
-    margin-top: 50px;
+    margin-top: 0;
     position: relative;
 }
 
@@ -150,7 +145,6 @@ section.banner-section {
     top: 50%;
     left: 50%;
 }
-
 /*banner-css-end*/
 
 
