@@ -424,6 +424,44 @@ section.choose-main {
 }
 
 /*footer-css-end*/
+/*cookie start*/
+.cookie-alert {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 !important;
+  z-index: 999;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 500ms ease-out;
+  left: 0;
+}
+
+.cookie-alert.show {
+  opacity: 1;
+  transform: translateY(0%);
+  transition-delay: 1000ms;
+}
+
+.card-body h4 {
+  color: #004471;
+  font-size: 25px;
+}
+
+a.btn.btn-primary.accept-cookies {
+  background: #004471;
+  padding: 6px 22px;
+  font-size: 20px;
+  border: 1px solid #004471;
+}
+a.btn.btn-primary.accept-cookies:hover {
+  background-color: transparent;
+  border: 1px solid #004471;
+  color: #004471;
+}
+
+/*cookie end*/
 /*privacy-css-end*/
 section.privacy {
   background-image: url(../images/privacybanner.jpg);

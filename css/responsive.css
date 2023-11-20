@@ -233,6 +233,9 @@ h2 {
   .site-logo img {
     max-width: 13rem;
   }
+  .content-wrap p {
+    text-align: justify;
+  }
 }
 
 

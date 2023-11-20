@@ -438,6 +438,48 @@ section.choose-main {
 
 /*footer-css-end*/
 
+/*cookie start*/
+.cookie-alert {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 !important;
+    z-index: 999;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 500ms ease-out;
+    left: 0;
+}
+
+.cookie-alert.show {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 1000ms;
+}
+
+.card-body {
+    h4 {
+        color: $clr-blue;
+        font-size: 25px;
+    }
+}
+
+a.btn.btn-primary.accept-cookies {
+    background: $clr-blue;
+    padding: 6px 22px;
+    font-size: 20px;
+    border: 1px solid $clr-blue;
+
+    &:hover {
+        background-color: transparent;
+        border: 1px solid $clr-blue;
+        color: $clr-blue;
+    }
+}
+
+/*cookie end*/
+
 /*privacy-css-end*/
 section.privacy {
     background-image: url(../images/privacybanner.jpg);
@@ -497,8 +539,10 @@ section.terms {
         height: 450px;
     }
 }
+
 section.termstext {
     padding: 50px 0;
 }
+
 /*terms-css-end*/
 /*# sourceMappingURL=style.css.map */
