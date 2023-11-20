@@ -545,4 +545,41 @@ section.termstext {
 }
 
 /*terms-css-end*/
+
+
+/*About-css-start*/
+section.about {
+    background-image: url(../images/Aboutbanner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.55);
+        height: 450px;
+    }
+}
+.about-text{
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -118px;
+    width: calc(100% + 118px);
+    margin-top: 70px;
+}
+.about-picture img{
+    width: 100%;
+    max-width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+/*About-css-end*/
 /*# sourceMappingURL=style.css.map */

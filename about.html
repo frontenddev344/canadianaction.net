@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <title>About</title>
+</head>
+
+<body>
+  <!-- site-header start -->
+  <header class="site-header">
+    <div class="container">
+      <div class="site-logo">
+        <a href="index.html"><img src="images/headerlogo.png" alt="site-logo"></a>
+      </div>
+
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="hotels.html">Hotels</a></li>
+          <li><a href="cuisine.html">Cuisine</a></li>
+          <li><a href="adventure.html">Adventure</a></li>
+          <li><a href="entertainment.html">Entertainment</a></li>
+          <li><a href="casino.html">Casino</a></li>
+          <li><a href="about.html" class="menu active">About</a></li>
+          <li class="closed-menu">
+            <a href="#">×</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">
+        <div class="bar-1"></div>
+        <div class="bar-2"></div>
+        <div class="bar-3"></div>
+      </div>
+    </div>
+  </header>
+  <!-- site header end -->
+
+  <!-- site banner start -->
+  <section class="about">
+    <div class="container">
+      <div class="row">
+        <div class="banner__text">
+          <h1>About</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- site banner end -->
+
+  <!-- site homemain start -->
+  <section class="homemain">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="about-picture">
+            <img src="images/abouttext.jpg" class="img-fluid" alt="homemain1">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="aboutmain">
+          <div class="about-text">
+            <h2>About Us</h2>
+            <p>At CanadianAction, we believe that travel is more than just a journey; it's an immersive experience that fuels the soul, broadens perspectives, and creates lasting memories. Our passion lies in helping you discover the breathtaking beauty, diverse culture, and thrilling entertainment that Canada has to offer.</p>
+            <p>Our Mission: At the heart of CanadianAction is a commitment to curating unparalleled travel experiences tailored to your preferences. Whether you're a nature enthusiast seeking the tranquility of the Rockies, a culture buff eager to explore vibrant cities, or an adrenaline junkie in pursuit of thrilling escapades, we've got you covered. Our mission is to empower you to embark on your dream Canadian adventure with ease and excitement.
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- site homemain end -->
+
+
+
+  <!-- site footer start -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="footer-logo">
+            <a href="index.html"><img src="images/headerlogo.png" alt="header-logo" class="img-fluid"></a>
+          </div>
+          <div class="social-signals">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="footer-links">
+            <h2>Links</h2>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="hotels.html">Hotels</a></li>
+              <li><a href="cuisine.html">Cuisine</a></li>
+              <li><a href="adventure.html">Adventure</a></li>
+              <li><a href="entertainment.html">Entertainment</a></li>
+              <li><a href="casino.html">Casino</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="kontakt.html">Kontakt </a></li>
+              <li><a href="privacy.html">Privacy</a></li>
+              <li><a href="terms-condition.html">Terms Condition</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="footer-adresse">
+            <h2>Kontakt</h2>
+            <p>Tjuvholmen allé 3, 0252 Oslo,<br> Norwegen </p>
+            <div class="footer-mails">
+              <div class="mails-names">
+                <i class="fa-solid fa-phone-volume" style="color: #c19d60;"></i>
+                <a href="tel:+4551797719">+45 51 79 77 19</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- site footer end -->
+
+
+
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jquery.js"></script>
+
+
+  <script>
+    $(document).ready(function () {
+      $(".menu-toggle").click(function () {
+        $("body").addClass("toggle");
+      });
+    });
+
+    $(document).ready(function () {
+      $(".closed-menu").click(function () {
+        $("body").removeClass("toggle");
+      });
+    });
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        var header = $("header");
+        header.toggleClass("sticky", $(window).scrollTop() > 0);
+      });
+    });
+  </script>
+
+
+
+
+</body>
+
+</html>
