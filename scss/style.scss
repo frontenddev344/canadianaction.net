@@ -160,14 +160,19 @@ section.banner-section {
 .homemain{
     padding: 50px 0;
     &-text{
+        background: #fff;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+         padding: 0 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 100%;
+
     }
     &-picture img{
         width: 100%;
         max-width: 450px;
+        height: 450px;
         object-fit: cover;
     }
     &-text{
@@ -177,6 +182,68 @@ section.banner-section {
     }
 }
 /*homemain-css-end*/
+
+/*tilesformat-css-end*/
+.casino-hotels-wrapper {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    transition: all 0.3s;
+    padding: 20px;
+}
+
+.casino-hotels-wrapper .row {
+    align-items: center;
+}
+
+.casino-hotels-wrapper .casino-btn {
+    text-align: center;
+}
+
+.casino-hotels-wrapper .casino-btn a {
+    background-color: $clr-blue;
+    text-decoration: none;
+    color: $clr-white;
+    font-size: 18px;
+    padding: 11px 44px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid;
+}
+
+.casino-hotels-wrapper .casino-text {
+    text-align: center;
+}
+
+.casino-hotels-wrapper .casino-btn a:hover {
+    background: $clr-parrot;
+    border: 1px solid $clr-parrot;
+    color: $clr-white;
+}
+
+.casino-hotels-wrapper .casino-text h3 {
+    color: $clr-blue;
+    font-size: 30px;
+}
+
+.casino-hotels-wrapper .casino-text p {
+    font-size: 17px;
+    color: $clr-grey;
+}
+
+.casino-hotels-wrapper .casino-img figure img {
+    height: 216px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.tilesformat {
+    padding-bottom: 80px;
+}
+
+/*tilesformat-css-end*/
 
 /*choose-css-start*/
 section.choose-main {
@@ -214,9 +281,9 @@ section.choose-main {
         transition: .3s;
     }
 
-    h5 {
-        font-size: 24px;
-        color: $clr-black;
+    h3 {
+        font-size: 30px;
+        color: $clr-blue;
         margin: 10px 0;
 
         &:hover {
@@ -228,8 +295,9 @@ section.choose-main {
 
     p {
         margin: 0 auto;
-        color: $clr-black;
-        max-width: 65%;
+        color: $clr-grey;
+        max-width: 80%;
+        font-size: 16px;
     }
 }
 

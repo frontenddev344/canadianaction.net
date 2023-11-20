@@ -184,6 +184,9 @@ section.banner-section::after {
   padding: 50px 0;
 }
 .homemain-text {
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 0 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -192,6 +195,7 @@ section.banner-section::after {
 .homemain-picture img {
   width: 100%;
   max-width: 450px;
+  height: 450px;
   object-fit: cover;
 }
 .homemain-text p {
@@ -199,6 +203,67 @@ section.banner-section::after {
 }
 
 /*homemain-css-end*/
+/*tilesformat-css-end*/
+.casino-hotels-wrapper {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: #fff;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  transition: all 0.3s;
+  padding: 20px;
+}
+
+.casino-hotels-wrapper .row {
+  align-items: center;
+}
+
+.casino-hotels-wrapper .casino-btn {
+  text-align: center;
+}
+
+.casino-hotels-wrapper .casino-btn a {
+  background-color: #004471;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 11px 44px;
+  display: inline-block;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid;
+}
+
+.casino-hotels-wrapper .casino-text {
+  text-align: center;
+}
+
+.casino-hotels-wrapper .casino-btn a:hover {
+  background: #B5F201;
+  border: 1px solid #B5F201;
+  color: white;
+}
+
+.casino-hotels-wrapper .casino-text h3 {
+  color: #004471;
+  font-size: 30px;
+}
+
+.casino-hotels-wrapper .casino-text p {
+  font-size: 17px;
+  color: #AAAAAA;
+}
+
+.casino-hotels-wrapper .casino-img figure img {
+  height: 216px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.tilesformat {
+  padding-bottom: 80px;
+}
+
+/*tilesformat-css-end*/
 /*choose-css-start*/
 section.choose-main {
   background-color: #004471;
@@ -232,20 +297,21 @@ section.choose-main {
   max-width: 64px;
   transition: 0.3s;
 }
-.item h5 {
-  font-size: 24px;
-  color: #0C0B0B;
+.item h3 {
+  font-size: 30px;
+  color: #004471;
   margin: 10px 0;
 }
-.item h5:hover {
+.item h3:hover {
   color: #004471;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .item p {
   margin: 0 auto;
-  color: #0C0B0B;
-  max-width: 65%;
+  color: #AAAAAA;
+  max-width: 80%;
+  font-size: 16px;
 }
 
 .item span {
