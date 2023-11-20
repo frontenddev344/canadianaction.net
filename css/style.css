@@ -476,6 +476,10 @@ section.terms::after {
   height: 450px;
 }
 
+section.termstext {
+  padding: 50px 0;
+}
+
 /*terms-css-end*/
 
 
