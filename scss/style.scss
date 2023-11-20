@@ -350,7 +350,7 @@ section.choose-main {
     padding: 50px 0;
 
     &-logo {
-        max-width: 124px;
+        max-width: 160px;
     }
 
     &-links {
@@ -445,6 +445,7 @@ section.privacy {
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
+    position: relative;
 
     &::after {
         content: "";
@@ -478,4 +479,23 @@ section.privacy-policy {
 
 /*privacy-css-end*/
 
+
+/*terms-css-start*/
+section.terms {
+    background-image: url(../images/termsbanner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.55);
+        height: 450px;
+    }
+}
+/*terms-css-end*/
 /*# sourceMappingURL=style.css.map */
