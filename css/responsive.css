@@ -1,3 +1,32 @@
+li {
+  list-style: none;
+}
+
+a, button {
+  font-family: "Varta", sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 70px;
+  color: #AAAAAA;
+  font-family: "Varta", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 75px;
+  color: white;
+}
+
+h2 {
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: 500;
+}
+
 /*media queries start*/
 @media screen and (max-width: 1199px) {
   .container {
@@ -32,7 +61,7 @@
     right: 0;
     bottom: 0;
     width: 300px;
-    background: #000000;
+    background: #004471;
     transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
     transform: translateX(-100%);
   }
@@ -133,7 +162,7 @@
   .bar-3 {
     width: 40px;
     height: 2px;
-    background-color: #000000;
+    background-color: #004471;
     margin: 0.6rem 0;
     transition: all 0.3s linear;
     display: block;

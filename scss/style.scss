@@ -32,9 +32,11 @@ a {
     text-decoration: none;
     color: inherit;
 }
-p{
+
+p {
     font-family: 'Varta', sans-serif;
 }
+
 a:focus {
     color: inherit;
 }
@@ -60,13 +62,14 @@ header.site-header {
     text-transform: capitalize;
     color: #000000;
     position: absolute;
-	 top: 0;
+    top: 0;
     left: 0;
     right: 0;
     z-index: 999;
     width: 100%;
     transition: .3s;
 }
+
 header.site-header.sticky {
     background: #ffffff;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
@@ -74,8 +77,9 @@ header.site-header.sticky {
     padding: 10px 0;
     position: fixed;
 }
+
 .site-header .site-nav ul li a.active {
-color: $clr-parrot;
+    color: $clr-parrot;
 }
 
 .site-logo img {
@@ -88,7 +92,8 @@ color: $clr-parrot;
     display: inline-block;
     font-family: 'Khand', sans-serif;
     font-weight: 500;
-    &:hover{
+
+    &:hover {
         color: $clr-parrot;
     }
 }
@@ -145,6 +150,7 @@ section.banner-section {
     top: 50%;
     left: 50%;
 }
+
 /*banner-css-end*/
 
 

@@ -1,3 +1,6 @@
+@import './typography';
+@import './variables';
+@import './mixins';
 /*media queries start*/
 @media screen and (max-width: 1199px) {
 
@@ -40,7 +43,7 @@
         right: 0;
         bottom: 0;
         width: 300px;
-        background: #000000;
+        background: $clr-blue;
         transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
         transform: translateX(-100%);
     }
@@ -159,7 +162,7 @@
     .bar-3 {
         width: 40px;
         height: 2px;
-        background-color: #000000;
+        background-color: $clr-blue;
         margin: 0.6rem 0;
         transition: all 0.3s linear;
         display: block;
@@ -188,9 +191,11 @@
         }
     }
 }
+
 @media screen and (max-width:575px) {
     .site-nav {
         width: 100%;
     }
 }
+
 /*# sourceMappingURL=responsive.css.map */
