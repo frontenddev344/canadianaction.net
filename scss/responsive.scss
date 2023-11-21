@@ -35,10 +35,14 @@
     .item {
         aspect-ratio: 1;
     }
+    .about-text {
+        margin-left: inherit;
+        width: inherit;
+        margin-top: inherit;
+    }
 }
 
 @media screen and (max-width: 991px) {
-
     /*header start*/
     .site-nav {
         position: fixed;
@@ -220,6 +224,14 @@
 
     .item {
         aspect-ratio: inherit;
+    }
+    .about_us_content{
+        width: 100%;
+    }
+    .about-text {
+        p{
+            font-size: 14px;
+        }
     }
 }
 

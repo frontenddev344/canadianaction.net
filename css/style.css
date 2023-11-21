@@ -539,7 +539,7 @@ section.about::after {
 .about-text {
   background: #fff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 0 20px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -555,6 +555,71 @@ section.about::after {
   object-fit: cover;
 }
 
+/*contact-css-start*/
+.contact__content span {
+  color: #004471;
+  font-size: 18px;
+}
+
+.about_us_content {
+  background-color: white;
+  padding: 2rem;
+  width: 50%;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.input-control {
+  display: block;
+  width: 100%;
+  height: 4rem;
+  border: 1px solid #004471;
+  padding: 2rem 2rem;
+  background: transparent;
+  color: #0C0B0B;
+}
+
+textarea.input-control {
+  resize: none;
+  height: auto;
+}
+
+.form-group .submit-btn {
+  background: transparent;
+  border: 1px solid #004471;
+  transition: all 0.2s linear;
+  display: inline-block;
+  padding: 0.8rem 4rem;
+  color: white;
+  text-transform: capitalize;
+}
+.form-group .submit-btn:hover {
+  background-color: #004471;
+}
+
+.input-control:focus-visible {
+  outline: none;
+}
+
+.form-group label {
+  display: inline-block;
+  padding-bottom: 5px;
+  color: #004471;
+  transition: all 0.2s linear;
+  text-transform: capitalize;
+}
+
+button.submit-btn {
+  color: #004471 !important;
+}
+button.submit-btn:hover {
+  background-color: #004471;
+  color: white !important;
+}
+
+/*contact-css-end*/
 /*About-css-end*/
 
 
