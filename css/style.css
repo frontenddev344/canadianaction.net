@@ -890,7 +890,7 @@ button.submit-btn:hover {
 /*adventure-css-start*/
 .adventure {
   background-image: url(../images/adventurebanner.jpg);
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   height: 450px;
