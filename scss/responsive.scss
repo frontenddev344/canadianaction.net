@@ -35,14 +35,21 @@
     .item {
         aspect-ratio: 1;
     }
+
     .about-text {
         margin-left: inherit;
         width: inherit;
         margin-top: inherit;
     }
+
+    .homemain__picture img {
+        height: 400px;
+        max-width: 450px;
+    }
 }
 
 @media screen and (max-width: 991px) {
+
     /*header start*/
     .site-nav {
         position: fixed;
@@ -222,13 +229,40 @@
     .item {
         aspect-ratio: inherit;
     }
-    .about_us_content{
+
+    .about_us_content {
         width: 100%;
     }
+
     .about-text {
-        p{
+        p {
             font-size: 14px;
         }
+    }
+
+    .about_us_content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    section.joins {
+        text-align: center;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .homemain__picture img {
+        height: 350px;
+        max-width: 100%;
+    }
+
+    .homemain__part {
+        padding: 40px 0;
+    }
+
+    section.attractioncard {
+        padding: 0;
     }
 }
 

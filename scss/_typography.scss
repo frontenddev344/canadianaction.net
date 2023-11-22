@@ -1,11 +1,12 @@
-
 @import './variables';
 @import './mixins';
 
-li{
+li {
     list-style: none;
 }
-a,button {
+
+a,
+button {
     font-family: 'Varta', sans-serif;
 }
 
@@ -15,6 +16,10 @@ p {
     line-height: 25px;
     color: $clr-grey;
     font-family: 'Varta', sans-serif;
+
+    @include mq(sm) {
+        text-align: justify;
+    }
 }
 
 
@@ -30,8 +35,9 @@ h2 {
     line-height: 50px;
     font-weight: 600;
     color: $clr-blue;
+
     @include mq(xl) {
-            font-size: 29px;
-            line-height: 33px;
+        font-size: 29px;
+        line-height: 33px;
     }
 }
