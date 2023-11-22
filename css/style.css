@@ -887,6 +887,78 @@ section.adventure::after {
   height: 450px;
 }
 
+.adventurous_main .row {
+  row-gap: 50px;
+  align-items: center;
+}
+
+.adventurous_left {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+.adventurous_left a {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+img.img-fluid.boutiquepic {
+  border-radius: 0;
+}
+
+.adventurous_left img {
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  height: 350px;
+}
+
+.adventurous_right.adventurous_flex.adventurous_space.shadow {
+  background: rgba(255, 255, 255, 0.9);
+  border: 3px solid #fff;
+  border-radius: 4px;
+  z-index: 9;
+  position: relative;
+  margin: 0;
+  width: calc(100% + 150px);
+  margin-left: -150px;
+}
+
+.adventurous_space {
+  padding-left: 44px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.adventurous_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.adventurous_right h3 a {
+  padding-bottom: 18px;
+  display: block;
+  color: #031a29;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.adventurous_space p {
+  margin-bottom: 25px;
+  font-size: 17px;
+  line-height: 26PX;
+}
+
+.adventurous_main {
+  padding: 0 0 50px 0;
+}
+
 /*adventure-css-end*/
 /*entertainment-css-start*/
 section.entertainment {
