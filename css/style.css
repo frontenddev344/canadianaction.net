@@ -555,6 +555,12 @@ section.about::after {
   object-fit: cover;
 }
 
+section.join {
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
 /*contact-css-start*/
 .contact__content span {
   color: #004471;
@@ -564,7 +570,9 @@ section.about::after {
 .about_us_content {
   background-color: white;
   padding: 2rem;
-  width: 50%;
+  width: 100%;
+  max-width: 50%;
+  margin: 0 auto;
 }
 
 .form-group {

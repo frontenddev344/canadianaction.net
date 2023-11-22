@@ -581,10 +581,12 @@ section.about {
     height: 450px;
     object-fit: cover;
 }
-
+section.join {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
 /*contact-css-start*/
-
-
 
 .contact {
     &__content {
@@ -598,7 +600,9 @@ section.about {
 .about_us_content {
     background-color: $clr-white;
     padding: 2rem;
-    width: 50%;
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
 }
 
 .form-group {
