@@ -819,44 +819,54 @@ section.cuisine::after {
   height: 450px;
 }
 
-section.chateau {
-  background-color: #f8f9fa;
-  padding: 80px 0;
-  margin-top: 80px;
-  margin-bottom: 50px;
+.casino-btn a {
+  background-color: #004471;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 11px 44px;
+  display: inline-block;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid;
+}
+.casino-btn a:hover {
+  background-color: #B5F201;
+  border: 1px solid #B5F201;
 }
 
-section.chateau .chateau-wrapper .row .col-lg-3 {
-  padding: 0;
+.col-lg-4.col-md-6.col-sm-12.space {
+  margin-top: 30px;
 }
 
-section.chateau .wrapper-chateau {
-  overflow: hidden;
-}
-section.chateau .wrapper-chateau img {
-  height: 356px;
-  object-fit: cover;
-  transition: all 0.3s ease-in;
-}
-
-section.chateau .chateau-text {
-  background-color: #fff;
+.slovernia__card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   height: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  position: relative;
   transition: all 0.3s;
 }
-section.chateau .chateau-text h3 {
-  font-size: 26px;
-  margin: 20px 0;
+
+.slovernia__destinations {
+  height: 100%;
+}
+
+.slovernia__destinations img {
+  width: 100%;
+  height: 303px;
+  object-fit: cover;
+}
+
+.Slovenia__content {
+  padding: 20px 20px;
+}
+.Slovenia__content h3 {
   color: #004471;
-  font-weight: bold;
-  line-height: 30px;
+  font-size: 23px;
+  font-weight: 600;
+}
+.Slovenia__content p {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: justify;
 }
 
 /*Cuisine-css-end*/
