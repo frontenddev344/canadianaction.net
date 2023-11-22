@@ -832,7 +832,7 @@ button.submit-btn {
 
         &::before {
             position: absolute;
-            content: '';
+            content: none;
             inset: 0;
             background-color: $clr-blue;
             height: 7px;

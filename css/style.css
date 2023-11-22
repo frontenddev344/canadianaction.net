@@ -793,7 +793,7 @@ button.submit-btn:hover {
 }
 .homemain__part p::before {
   position: absolute;
-  content: "";
+  content: none;
   inset: 0;
   background-color: #004471;
   height: 7px;
