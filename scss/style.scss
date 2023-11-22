@@ -144,7 +144,7 @@ header.site-header.sticky {
 /*header end*/
 
 /*banner-css-start*/
-section.banner-section {
+.banner-section {
     position: relative;
     height: 550px;
     background-image: url(../images/homebanner.jpeg);
@@ -273,7 +273,7 @@ section.banner-section {
 /*tilesformat-css-end*/
 
 /*choose-css-start*/
-section.choose-main {
+.choose-main {
     background-image: url(../images/choosebg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -508,7 +508,7 @@ a.btn.btn-primary.accept-cookies {
 /*cookie end*/
 
 /*privacy-css-end*/
-section.privacy {
+.privacy {
     background-image: url(../images/privacybanner.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -542,7 +542,7 @@ section.privacy {
     }
 }
 
-section.privacy-policy {
+.privacy-policy {
     padding: 50px 0;
 }
 
@@ -550,7 +550,7 @@ section.privacy-policy {
 
 
 /*terms-css-start*/
-section.terms {
+.terms {
     background-image: url(../images/termsbanner.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -567,7 +567,7 @@ section.terms {
     }
 }
 
-section.termstext {
+.termstext {
     padding: 50px 0;
 }
 
@@ -575,7 +575,7 @@ section.termstext {
 
 
 /*About-css-start*/
-section.about {
+.about {
     background-image: url(../images/Aboutbanner.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -611,7 +611,7 @@ section.about {
     object-fit: cover;
 }
 
-section.joins {
+.joins {
     text-align: center;
     max-width: 50%;
     margin: 0 auto;
@@ -699,7 +699,7 @@ button.submit-btn {
 /*About-css-end*/
 
 /*Hotels-css-start*/
-section.hotels {
+.hotels {
     background-image: url(../images/hotelsbanner.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -716,7 +716,7 @@ section.hotels {
     }
 }
 
-section.hotelstext {
+.hotelstext {
     padding: 50px 0;
 }
 
@@ -767,7 +767,7 @@ section.hotelstext {
 /*Hotels-css-end*/
 
 /*Casino-css-start*/
-section.casinobanner {
+.casinobanner {
     background-image: url(../images/casinobanner.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -784,7 +784,7 @@ section.casinobanner {
     }
 }
 
-section.attractioncard {
+.attractioncard {
     padding: 30px 0;
 }
 
@@ -792,11 +792,11 @@ section.attractioncard {
     display: -webkit-flex;
 }
 
-section.homecard {
+.homecard {
     padding: 50px 0;
 }
 
-section.homecard.cuisine {
+.homecard.cuisine {
     padding: 20px 0 0 0;
 }
 
@@ -867,7 +867,7 @@ section.homecard.cuisine {
 /*Casino-css-end*/
 
 /*Cuisine-css-start*/
-section.cuisine {
+.cuisine {
     background-image: url(../images/cuisinebanner.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -940,7 +940,7 @@ section.cuisine {
 /*Cuisine-css-end*/
 
 /*adventure-css-start*/
-section.adventure {
+.adventure {
     background-image: url(../images/adventurebanner.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -1033,7 +1033,7 @@ img.img-fluid.boutiquepic {
 /*adventure-css-end*/
 
 /*entertainment-css-start*/
-section.entertainment {
+.entertainment {
     background-image: url(../images/entertainmentbanner.jpeg);
     background-position: center;
     background-repeat: no-repeat;

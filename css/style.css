@@ -175,7 +175,7 @@ header.site-header.sticky {
 
 /*header end*/
 /*banner-css-start*/
-section.banner-section {
+.banner-section {
   position: relative;
   height: 550px;
   background-image: url(../images/homebanner.jpeg);
@@ -187,7 +187,7 @@ section.banner-section {
   position: relative;
   z-index: 1;
 }
-section.banner-section::after {
+.banner-section::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -293,7 +293,7 @@ section.banner-section::after {
 
 /*tilesformat-css-end*/
 /*choose-css-start*/
-section.choose-main {
+.choose-main {
   background-image: url(../images/choosebg.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -496,7 +496,7 @@ a.btn.btn-primary.accept-cookies:hover {
 
 /*cookie end*/
 /*privacy-css-end*/
-section.privacy {
+.privacy {
   background-image: url(../images/privacybanner.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -504,7 +504,7 @@ section.privacy {
   height: 450px;
   position: relative;
 }
-section.privacy::after {
+.privacy::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -525,13 +525,13 @@ section.privacy::after {
   font-family: "Varta";
 }
 
-section.privacy-policy {
+.privacy-policy {
   padding: 50px 0;
 }
 
 /*privacy-css-end*/
 /*terms-css-start*/
-section.terms {
+.terms {
   background-image: url(../images/termsbanner.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -539,7 +539,7 @@ section.terms {
   height: 450px;
   position: relative;
 }
-section.terms::after {
+.terms::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -547,13 +547,13 @@ section.terms::after {
   height: 450px;
 }
 
-section.termstext {
+.termstext {
   padding: 50px 0;
 }
 
 /*terms-css-end*/
 /*About-css-start*/
-section.about {
+.about {
   background-image: url(../images/Aboutbanner.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -561,7 +561,7 @@ section.about {
   height: 450px;
   position: relative;
 }
-section.about::after {
+.about::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -588,7 +588,7 @@ section.about::after {
   object-fit: cover;
 }
 
-section.joins {
+.joins {
   text-align: center;
   max-width: 50%;
   margin: 0 auto;
@@ -667,7 +667,7 @@ button.submit-btn:hover {
 /*contact-css-end*/
 /*About-css-end*/
 /*Hotels-css-start*/
-section.hotels {
+.hotels {
   background-image: url(../images/hotelsbanner.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -675,7 +675,7 @@ section.hotels {
   height: 450px;
   position: relative;
 }
-section.hotels::after {
+.hotels::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -683,7 +683,7 @@ section.hotels::after {
   height: 450px;
 }
 
-section.hotelstext {
+.hotelstext {
   padding: 50px 0;
 }
 
@@ -729,7 +729,7 @@ section.hotelstext {
 
 /*Hotels-css-end*/
 /*Casino-css-start*/
-section.casinobanner {
+.casinobanner {
   background-image: url(../images/casinobanner.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -737,7 +737,7 @@ section.casinobanner {
   height: 450px;
   position: relative;
 }
-section.casinobanner::after {
+.casinobanner::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -745,7 +745,7 @@ section.casinobanner::after {
   height: 450px;
 }
 
-section.attractioncard {
+.attractioncard {
   padding: 30px 0;
 }
 
@@ -753,11 +753,11 @@ section.attractioncard {
   display: -webkit-flex;
 }
 
-section.homecard {
+.homecard {
   padding: 50px 0;
 }
 
-section.homecard.cuisine {
+.homecard.cuisine {
   padding: 20px 0 0 0;
 }
 
@@ -814,7 +814,7 @@ section.homecard.cuisine {
 
 /*Casino-css-end*/
 /*Cuisine-css-start*/
-section.cuisine {
+.cuisine {
   background-image: url(../images/cuisinebanner.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -822,7 +822,7 @@ section.cuisine {
   height: 450px;
   position: relative;
 }
-section.cuisine::after {
+.cuisine::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -882,7 +882,7 @@ section.cuisine::after {
 
 /*Cuisine-css-end*/
 /*adventure-css-start*/
-section.adventure {
+.adventure {
   background-image: url(../images/adventurebanner.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -890,7 +890,7 @@ section.adventure {
   height: 450px;
   position: relative;
 }
-section.adventure::after {
+.adventure::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -972,7 +972,7 @@ img.img-fluid.boutiquepic {
 
 /*adventure-css-end*/
 /*entertainment-css-start*/
-section.entertainment {
+.entertainment {
   background-image: url(../images/entertainmentbanner.jpeg);
   background-position: center;
   background-repeat: no-repeat;
@@ -980,7 +980,7 @@ section.entertainment {
   height: 450px;
   position: relative;
 }
-section.entertainment::after {
+.entertainment::after {
   content: "";
   position: absolute;
   inset: 0;
