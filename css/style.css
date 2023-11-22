@@ -378,8 +378,18 @@ section.choose-main {
   background-color: #004471;
   padding: 50px 0;
 }
+.footer-links {
+  text-align: center;
+}
+.footer-links ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
 .footer-logo {
   max-width: 160px;
+  margin: 0 auto 20px;
 }
 .footer-links h2 {
   color: white;
@@ -412,11 +422,12 @@ section.choose-main {
 
 .social-signals {
   margin-top: 25px;
+  text-align: center;
 }
 .social-signals i {
   color: white;
   border-radius: 30px;
-  font-size: 25px;
+  font-size: 18px;
   margin: 0 10px;
   border: 1px solid white;
   height: 40px;

@@ -365,9 +365,18 @@ section.choose-main {
 .footer {
     background-color: $clr-blue;
     padding: 50px 0;
-
+    &-links {
+        text-align: center;
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+    }
     &-logo {
         max-width: 160px;
+        margin: 0 auto 20px;
     }
 
     &-links {
@@ -414,11 +423,11 @@ section.choose-main {
 
 .social-signals {
     margin-top: 25px;
-
+    text-align: center;
     i {
         color: $clr-white;
         border-radius: 30px;
-        font-size: 25px;
+        font-size: 18px;
         margin: 0 10px;
         border: 1px solid $clr-white;
         height: 40px;
@@ -452,6 +461,7 @@ section.choose-main {
         }
     }
 }
+
 
 /*footer-css-end*/
 
