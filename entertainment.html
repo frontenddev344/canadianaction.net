@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <title>Entertainment</title>
+</head>
+
+<body>
+    <!-- site-header start -->
+    <header class="site-header">
+        <div class="container">
+            <div class="site-logo">
+                <a href="index.html"><img src="images/headerlogo.png" alt="site-logo"></a>
+            </div>
+
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hotels.html">Hotels</a></li>
+                    <li><a href="cuisine.html">Cuisine</a></li>
+                    <li><a href="adventure.html">Adventure</a></li>
+                    <li><a href="entertainment.html" class="menu active">Entertainment</a></li>
+                    <li><a href="casino.html">Casino</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="closed-menu">
+                        <a href="#">×</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+                <div class="bar-3"></div>
+            </div>
+        </div>
+    </header>
+    <!-- site header end -->
+
+    <!-- site banner start -->
+    <section class="entertainment">
+        <div class="container">
+            <div class="row">
+                <div class="banner__text">
+                    <h1>Entertainment</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- site banner end -->
+
+
+
+    <!-- site join start -->
+    <section class="hotelstext">
+        <div class="container">
+            <div class="row">
+                <div class="jointext disclaimer">
+                    <p>Each of these restaurants represents a culinary journey through Canada's diverse and rich
+                        gastronomic landscape. Whether you seek the inventive creations of Montreal, the coastal flavors
+                        of St. John's, or the urban sophistication of Toronto and Vancouver, our comparison site allows
+                        you to explore and choose the perfect dining experience that resonates with your taste buds and
+                        preferences.
+                    </p>
+                </div>
+            </div>
+    </section>
+    <!-- site join end -->
+
+    <!-- site footer start -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="images/headerlogo.png" alt="header-logo" class="img-fluid"></a>
+                    </div>
+                    <div class="social-signals">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="footer-links">
+                        <h2>Links</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="hotels.html">Hotels</a></li>
+                            <li><a href="cuisine.html">Cuisine</a></li>
+                            <li><a href="adventure.html">Adventure</a></li>
+                            <li><a href="entertainment.html">Entertainment</a></li>
+                            <li><a href="casino.html">Casino</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="footer-links">
+                        <ul>
+                            <li><a href="privacy.html">Privacy</a></li>
+                            <li><a href="terms-condition.html">Terms Condition</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- site footer end -->
+
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $(".menu-toggle").click(function () {
+                $("body").addClass("toggle");
+            });
+        });
+
+        $(document).ready(function () {
+            $(".closed-menu").click(function () {
+                $("body").removeClass("toggle");
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var header = $("header");
+                header.toggleClass("sticky", $(window).scrollTop() > 0);
+            });
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>

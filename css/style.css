@@ -870,6 +870,42 @@ section.cuisine::after {
 }
 
 /*Cuisine-css-end*/
+/*adventure-css-start*/
+section.adventure {
+  background-image: url(../images/adventurebanner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+section.adventure::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  height: 450px;
+}
+
+/*adventure-css-end*/
+/*entertainment-css-start*/
+section.entertainment {
+  background-image: url(../images/entertainmentbanner.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+section.entertainment::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  height: 450px;
+}
+
+/*entertainment-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */
