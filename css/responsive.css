@@ -76,9 +76,6 @@ h2 {
   .site-nav li {
     font-size: 15px;
   }
-  .item {
-    aspect-ratio: 1;
-  }
   .about-text {
     margin-left: inherit;
     width: inherit;
@@ -233,9 +230,6 @@ h2 {
   }
   .casino-hotels-wrapper .casino-img figure img {
     height: 350px;
-  }
-  .item {
-    aspect-ratio: inherit;
   }
   .about_us_content {
     width: 100%;
